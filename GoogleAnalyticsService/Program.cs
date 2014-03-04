@@ -13,12 +13,12 @@ namespace GoogleAnalyticsService
 {
     class Program
     {
-        static string clientId = "519245772992-3opu0e5nfqksnk9t4g5917e0cj4ri82p.apps.googleusercontent.com";
-        static string clientSecret = "R0nz49u9T_H9SC_FQCzetVWe";
-        static string gaUser = "rasmus.christensen@gmail.com";
+        static string clientId = "INSERT CLIENTID HERE";
+        static string clientSecret = "INSERT CLIENT SECRET HERE";
+        static string gaUser = "INSERT USER HERE";
         static string gaApplication = "My Project";
         static string oauthTokenFilestorage = "MyOAuthStorage";
-        private static string profileId = "ga:43223093";
+        private static string profileId = "ga:INSERT PROFILEIDHERE";
 
         private static AnalyticsService analyticsService;
 
